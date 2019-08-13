@@ -50,7 +50,7 @@ class ImageRestoration:
 
 def run():
 	path = "data/"
-	imgpath =  path + "nplus.jpg"
+	imgpath =  path + "image.jpg"
 	img = cv.imread(imgpath, 1)
 
 	img_res = ImageRestoration(img,kernal_size = 5)
